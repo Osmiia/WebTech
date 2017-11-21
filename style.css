@@ -1,0 +1,55 @@
+body{
+    margin:0px;
+}
+H1{
+    COLOR:MAROON;
+}
+#container{
+    width:100vw;
+    height:100vh;
+}
+#header {
+    margin-top:0;
+    margin-left:0;
+    background-color:orange;
+    height: 10%;
+    width: 100%;
+    float:left;
+    text-align:center;
+
+}
+#header{
+    font-size:10vh;
+}
+#content {
+    height:80%;
+    background-image:url("https://pbs.twimg.com/profile_images/993504415/css_400x400.png");
+    width:100%;
+    float:left;
+
+}
+#footer{
+    height: 10%;
+    width: 100%;
+    background-color:#00ff00;
+    float:left;
+}
+#leftmenu {
+    width:15%;
+    height:100%;
+    background-color:purple;
+}
+#menuitems{
+    padding-top:20%;
+    width:90%;
+    margin-left:5%;
+}
+#menuknop {
+    background-color:green;
+    border: none;
+    margin-top:10px;
+    width:100%;
+}
+#menuknop:hover{
+    background-color:pink;
+}
