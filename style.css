@@ -8,7 +8,7 @@ H1{
     width:100vw;
     height:100vh;
 }
-#header {
+header {
     margin-top:0;
     margin-left:0;
     background-color:orange;
@@ -17,9 +17,6 @@ H1{
     float:left;
     text-align:center;
 
-}
-#header{
-    font-size:10vh;
 }
 #content {
     height:80%;
