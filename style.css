@@ -1,5 +1,5 @@
 body{
-    margin:0px;
+    margin:0;
 }
 H1{
     COLOR:MAROON;
@@ -14,7 +14,6 @@ header {
     background-color:orange;
     height: 10%;
     width: 100%;
-    float:left;
     text-align:center;
 
 }
@@ -22,8 +21,6 @@ header {
     height:80%;
     background-image:url("https://pbs.twimg.com/profile_images/993504415/css_400x400.png");
     width:100%;
-    float:left;
-
 }
 #content:hover{
 background-image:url("https://www.hover.com/assets/common/hv_logo-c04cf18008526be6ae1369e277888e4918226d1b7200d0dce7318b84216bcc05.svg")
@@ -32,7 +29,6 @@ background-image:url("https://www.hover.com/assets/common/hv_logo-c04cf18008526b
     height: 10%;
     width: 100%;
     background-color:#00ff00;
-    float:left;
 }
 #leftmenu {
     width:15%;
