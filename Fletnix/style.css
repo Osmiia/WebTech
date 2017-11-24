@@ -31,15 +31,19 @@ body{
     height:5%;
     width:100%;
 }
-#menu button{
+#buttonleft{
     color:red;
     background-color:transparent;
     border:none;
     height:80%;
     width:15%;
 }
-#menu button:hover{
-    background-color:#151515;
+#buttonright{
+    color:red;
+    background-color:transparent;
+    border:none;
+    height:80%;
+    width:15%;
 }
 #content{
     position:absolute;
