@@ -5,31 +5,48 @@ body{
     width:100%;
 }
 #container{
-    background-color:#202020;
+    background-color:#303030;
     height:100%;
     width:100%;
 }
 #header{
-    background-color:#101010;
+    background-color:#202020;
     height:10%;
     width:100%;
 }
+#seperator{
+    height:0.5%;
+    width:100%;
+    background-color:white;
+}
 #menu{
-    background-color:#101010;
-    height:10%;
+    background-color:#202020;
+    height:5%;
+    width:100%;
 }
 #menu.button{
     text-color:red;
 }
 #content{
+    height:75%;
+    width:100%;
+}
+#contentbox{
     margin-top:5%;
-    background-color:#101010;
-    height:70%;
-    margin-bottom:5%;
+    height:95%;
+    width:100%;
 }
-#content-left{
-    background-color:#101010;
+#contentbox-left{
+    margin-left:5%;
+    height:100%;
+    width:20%;
+    background-color:#202020;
+    float:left;
 }
-#content-right{
-    background-color:#101010;
+#contentbox-right{
+    height:100%;
+    width:60%;
+    margin-left:5%;
+    background-color:#202020;
+    float:left;
 }
