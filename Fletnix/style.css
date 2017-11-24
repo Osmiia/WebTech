@@ -59,7 +59,7 @@ header img{
     height:84%;
     width:100%;
 }
-#movieposter{
+#movieposterhome{
     max-height:70%;
     max-width:20%;
 }
@@ -92,13 +92,33 @@ header img{
     background-color:#202020;
     float:left;
 }
+#movieposterid{
+    margin-top:5%;
+    max-width:90%;
+}
 #contentbox-right{
-    line-height:20px;
-    font-size:1vw;
     height:100%;
     width:75%;
     margin-left:5%;
     background-color:#202020;
     float:left;
     overflow-y:auto;
+}
+#contentbox-right h1{
+    margin-top:0;
+    margin-left:5%;
+    text-align:left;
+    font-size:2.5vw;
+    margin-bottom:0;
+}
+#contentbox-right p{
+    text-align:left;
+    line-height:20px;
+    font-size:1vw;
+    margin-left:5%;
+    margin-right:20%;
+}
+#kijkwijzer{
+    position:absolute;
+    max-height:10%;
 }
