@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+#container{
+    background-color:#303030;
+    height:100%;
+    width:100%;
+}
+#header{
+    background-color:#202020;
+    height:10%;
+    width:100%;
+}
+#header img{
+    height:80%;
+    vertical-align: middle;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#seperator{
+    height:0.2%;
+    width:100%;
+    background-color:white;
+}
+#menu{
+    background-color:#202020;
+    height:5%;
+    width:100%;
+}
+#buttonleft{
+    color:red;
+    background-color:transparent;
+    border:none;
+    height:80%;
+    width:15%;
+}
+#buttonright{
+    color:red;
+    background-color:transparent;
+    border:none;
+    height:80%;
+    width:15%;
+}
+#content{
+    position:absolute;
+    top:20%;
+    height:75%;
+    width:100%;
+}
+#contentbox{
+    height:100%;
+    width:100%;
+}
+#contentbox-left{
+    margin-left:5%;
+    height:100%;
+    width:20%;
+    background-color:#202020;
+    float:left;
+}
+#contentbox-right{
+    height:100%;
+    width:60%;
+    margin-left:5%;
+    background-color:#202020;
+    float:left;
+}
