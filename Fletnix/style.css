@@ -35,7 +35,7 @@ header img{
     height:5%;
     width:100%;
 }
-#menubutton{
+#menubutton, #overzicht{
     line-height:150%;
     vertical-align: middle;
     text-align:center;
@@ -47,8 +47,31 @@ header img{
     width:15%;
     flex-grow:1;
 }
-#menubutton:hover{
+#menubutton:hover, #overzicht:hover, #overzichtmenu:hover{
     background-color:#303030;
+}
+#overzicht:hover #overzichtmenudiv{
+    display:flex;
+}
+#overzichtmenudiv{
+    display:none;
+    height:15%;
+    width:20%;
+    left:20%;
+    margin-top:3%;
+    flex-grow:1;
+    background-color:#202020;
+    flex-wrap:wrap;
+    z-index: 1;
+}
+#overzichtmenu{
+    width:100%;
+    height:33.33%;
+    vertical-align: middle;
+    text-align:center;
+    text-decoration:none;
+    color:red;
+    border:none;
 }
 #content{
     overflow-y:auto;
@@ -60,11 +83,11 @@ header img{
     width:100%;
 }
 #movieposterhome{
-    max-height:60%;
-    max-width:20%;
+    height:70%;
+    width:20%;
 }
 #scrollimage{
-    margin-top:5%;
+    margin-top:3%;
     max-height:10%;
 }
 #contentbox{
@@ -123,3 +146,4 @@ header img{
     position:absolute;
     max-height:10%;
 }
+
