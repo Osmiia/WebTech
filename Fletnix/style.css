@@ -147,4 +147,17 @@ header img{
     position:absolute;
     max-height:10%;
 }
+#abbonementenLijst h1{
+  color:white;
+  text-align:center;
+}
+#abbonementenLijst ul li{
+color:white;
+width:33%;
+list-style-type:none;
+float:left;
+text-align: left;
+border-right:4px solid: white;
+border-right-color: white;
 
+}
