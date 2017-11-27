@@ -35,7 +35,7 @@ header img{
     height:5%;
     width:100%;
 }
-#menubutton, #overzicht{
+#menubutton, #overzicht, #account{
     line-height:150%;
     vertical-align: middle;
     text-align:center;
@@ -48,8 +48,12 @@ header img{
     width:15%;
     flex-grow:1;
 }
-#menubutton:hover, #overzicht:hover, #overzichtmenu:hover{
+#menubutton:hover, #overzicht:hover, #overzichtmenu:hover, #account:hover{
     background-color:#303030;
+}
+
+#account:hover {
+  
 }
 #overzicht:hover #overzichtmenudiv{
     display:flex;
@@ -155,7 +159,9 @@ header img{
 #abbonementenLijstBasis , #abbonementenLijstDuo , #abbonementenLijstFamilie {
   font-size:2.5vw;
   float:left;
-  width:33%
+  width:30%;
+  margin-left: 2.5%;
+  background-color: #202020;
 }
 
 #abbonementenLijstBasis ul, #abbonementenLijstDuo ul, #abbonementenLijstFamilie ul{
