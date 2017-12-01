@@ -250,7 +250,8 @@ background: linear-gradient(rgba(0, 170, 248, 0), rgba(2, 170, 248, 1));
     margin-left:10%;
     text-align:left;
 }
-#over{
+.over{
+    overflow-y:auto;
     margin-left:7%;
     font-size:20px;
     line-height:25px;
@@ -259,6 +260,6 @@ background: linear-gradient(rgba(0, 170, 248, 0), rgba(2, 170, 248, 1));
     background-color:#202020;
     float:left;
 }
-#over img{
+.over img{
     margin-top:20px;
 }

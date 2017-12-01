@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>TEST</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 <div id="container">
     <header><img src="Afbeeldingen/FletNixLogo.png" alt=""></header>
     <div id="seperator">&nbsp;</div>
     <div id="menu">
         <a class="menubutton" href="index.html">Home</a>
-        <a id="overzicht" href="movielist.html">Overzicht</a>
+        <div class="dropdown">
+            <a id="overzicht" href="movielist.html">Overzicht</a>
+            <div class="dropdowncontent">
+                <a class="menubutton" href="#">Action</a>
+                <a class="menubutton" href="#">SciFi</a>
+                <a class="menubutton" href="#">Adventure</a>
+            </div>
+        </div>
         <a class="menubutton" href="about.html">Over Ons</a>
         <a class="menubutton" href="subscribtion.html">Abbonementen</a>
-        <a class="menubutton" href="account.html">Karel de Heer</a>
-        <div id="overzichtmenudiv">
-            <a class="overzichtmenu" href="test.htm">Action</a>
-            <a class="overzichtmenu" href="/">Sci-Fi</a>
-            <a class="overzichtmenu" href="/">Adventure</a>
+        <div class="dropdown">
+            <a class="menubutton" href="account.html">Karel de Heer</a>
+            <div class="dropdowncontent">
+                <a class="menubutton" href="#">Kijkgeschiedenis</a>
+                <a class="menubutton" href="#">Abonnementstatus</a>
+                <a class="menubutton" href="#">Uitloggen</a>
+            </div>
         </div>
     </div>
+
+
 
     <div id="content">
 
