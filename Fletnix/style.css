@@ -136,13 +136,31 @@ header img{
     text-align:left;
     font-size:2.5vw;
     margin-bottom:0;
+    line-height:75px;
 }
 #contentbox-right p{
     text-align:left;
-    line-height:20px;
+    line-height: 20px;
     font-size:1vw;
     margin-left:5%;
     margin-right:20%;
+}
+#contentbox-right h3{
+    text-align:left;
+    margin-left:5%;
+    font-size:1.5vw;
+    line-height:30px;
+}
+#registratieknop{
+    width:30%;
+    height:20%;
+    border:none;
+    background-color:#000000;
+    font-size:1.5em;
+    color:#ffffff;
+}
+#registratieknop:hover{
+    background: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
 }
 #kijkwijzer{
     position:absolute;
@@ -196,12 +214,12 @@ background: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
 #registratie input[type=text]{
     border:none;
     background-color:#dedede;
-    margin-top:3%;
+    margin-top:2%;
 }
 #registratie input[type=password]{
     border:none;
     background-color:#dedede;
-    margin-top:3%;
+    margin-top:2%;
 }
 #registratie input[type=submit]{
     border:none;
@@ -220,5 +238,17 @@ background: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
     font-size:20px;
     margin-top:5%;
     margin-left:10%;
-text-align:left;
+    text-align:left;
+}
+#over{
+    margin-left:7%;
+    font-size:20px;
+    line-height:25px;
+    width:40%;
+    height:100%;
+    background-color:#202020;
+    float:left;
+}
+#over img{
+    margin-top:20px;
 }
