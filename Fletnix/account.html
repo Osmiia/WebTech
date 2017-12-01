@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>TEST</title>
@@ -5,54 +6,39 @@
 </head>
 <body>
 <div id="container">
-    <header><img src="Afbeeldingen/FletNixLogo.png"></header>
-    <div id="seperator"></div>
+    <header><img src="Afbeeldingen/FletNixLogo.png" alt=""></header>
+    <div id="seperator">&nbsp;</div>
     <div id="menu">
-        <a id="menubutton" href="index.html">Home</a>
+        <a class="menubutton" href="index.html">Home</a>
         <a id="overzicht" href="movielist.html">Overzicht</a>
-        <a id="menubutton" href="about.html">Over Ons</a>
-        <a id="menubutton" href="subscribtion.html">Abbonementen</a>
-        <a id="menubutton" href="account.html">Harry Jansen</a>
+        <a class="menubutton" href="about.html">Over Ons</a>
+        <a class="menubutton" href="subscribtion.html">Abbonementen</a>
+        <a class="menubutton" href="account.html">Harry Jansen</a>
         <div id="overzichtmenudiv">
-            <a id="overzichtmenu" href="test.htm">Action</a>
-            <a id="overzichtmenu" href="/">Sci-Fi</a>
-            <a id="overzichtmenu" href="/">Adventure</a>
+            <a class="overzichtmenu" href="test.htm">Action</a>
+            <a class="overzichtmenu" href="/">Sci-Fi</a>
+            <a class="overzichtmenu" href="/">Adventure</a>
         </div>
     </div>
-
     <div id="content">
-
         <div id="contentbox">
-            <div id="registratieformbox">
-                Registratieformulier
-            <form id="registratie" action="klantBevestiging.html" method="post">
-                Voornaam:
-                <input type="text" placeholder="Voornaam" required></input></br>
-                Achternaam:
-                <input type="text" placeholder="Achternaam" required></input></br>
-               E-mail adres
-                <input type="text" placeholder="E-Mail" required></input></br>
-                Postcode:
-                <input type="text" placeholder="Postcode" required></input></br>
-                Woonplaats:
-                <input type="text" placeholder="Woonplaats" required></input></br>
-                Huisnummer:
-                <input type="text" placeholder="Huisnummer" required></input></br>
-                Wachtwoord:
-                <input type="password" placeholder="Wachtwoord" required></input></br>
-                Wachtwoord herhalen:
-                <input type="password" placeholder="Wachtwoord" required></input></br>
-                Abonnementtype</br>
-                basis:
-                <input type="radio" id="f-option" name="abonnementtype">
-                duo:
-                <input type="radio" id="f-option" name="abonnementtype">
-                familie:
-                <input type="radio" id="f-option" name="abonnementtype"></br>
-                <input type="submit" value="Account aanmaken">
-            </form>
+            <div id="contentbox-left">
+                <img id="profielfoto" src="Afbeeldingen/karel.jpg" alt="">
+                Karel de Heer</br>
+                089748
+            </div>
+            <div id="contentbox-right">
+                <div id="account">
+                    <h2>Account informatie</h2>
+                    Gebruikersnaam: Gladdeboi<br>
+                    Naam: Karel de Heer<br>
+                    Leeftijd: 75<br>
+                    Abonnement ID: 089748<br>
+                    Rekeningnummer: UI15 ING 934839439834<br>
+                </div>
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>
