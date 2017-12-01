@@ -48,7 +48,7 @@ header img{
     width:15%;
     flex-grow:1;
 }
-.menubutton:hover, #overzicht:hover, .dropdowncontent:hover{
+.menubutton:hover, #overzicht:hover {
     background-color:#303030;
 }
 
@@ -72,20 +72,16 @@ z-index: 1;
 position: absolute;
 }
 
-.dropdowncontent a{
+.dropdowncontent a,{
   float:none;
   display:block;
   text-decoration:none;
-  color:#02aaf8;
-  text-align:center;
-}
-
-.dropdowncontent a:hover{
-  background-color: #303030;
+  width:100%;
 }
 
 .dropdown:hover .dropdowncontent{
   display:block;
+  width:100%;
 }
 #content{
     overflow-y:auto;
@@ -174,7 +170,7 @@ position: absolute;
     color:#ffffff;
 }
 #registratieknop:hover{
-    background: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
+background: linear-gradient(rgba(0, 170, 248, 0), rgba(2, 170, 248, 1));
 }
 #kijkwijzer{
     position:absolute;
@@ -202,7 +198,7 @@ position: absolute;
   background-color: #202020;
 }
 #abbonementenLijstBasis:hover, #abbonementenLijstDuo:hover , #abbonementenLijstFamilie:hover {
-background: linear-gradient(rgba(2, 170, 248, 1)), rgba(2,170,248,2));
+background: linear-gradient(rgba(0, 170, 248, 0), rgba(2, 170, 248, 1));
 }
 
 #abbonementenLijstBasis a, #abbonementenLijstDuo a, #abbonementenLijstFamilie a{
