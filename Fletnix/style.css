@@ -151,6 +151,15 @@ header img{
     position:absolute;
     max-height:10%;
 }
+#afspelen{
+    border:none;
+    color:red;
+    background-color:black;
+    height:10%;
+    width:90%;
+    margin-top:2%;
+    font-size:2em;
+}
 #abbonementenLijst h1{
   color:white;
   text-align:center;
@@ -163,7 +172,6 @@ header img{
   margin-left: 2.5%;
   background-color: #202020;
 }
-
 #abbonementenLijstBasis:hover, #abbonementenLijstDuo:hover , #abbonementenLijstFamilie:hover {
 background: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
 }
@@ -177,3 +185,37 @@ background: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
   text-align:left;
 
 }
+
+#registratieformbox {
+    font-size:20px;
+    display: block;
+    width: 50%;
+    height: 100%;
+    background-color:#202020;
+    float: left;
+    margin-left:25%;
+    line-height:250%;
+}
+#registratie input[type=text]{
+    border:none;
+    background-color:#dedede;
+    margin-top:3%;
+}
+#registratie input[type=password]{
+    border:none;
+    background-color:#dedede;
+    margin-top:3%;
+}
+#registratie input[type=submit]{
+    border:none;
+    background-color:#dedede;
+    margin-top:1%;
+    border:none;
+    background-color:#101010;
+    color:red;
+}
+#profielfoto{
+    margin-top:20px;
+    max-width:90%;
+}
+
